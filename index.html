@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Currency Conversion Tool</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-section">
+            <div class="row">
+                <div class="col text-center">
+                    <img class=" logo-img" src="img/tab-logo_transparent.png" alt="Currency Project Logo With Tagline">
+                    <h1>Currency Conversion Tool </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row row2">
+            <div class="col col1">
+                <div class="container converter">
+                    <h1>Step 1</h1>
+                    <h3>Select the currency you want to convert</h3>
+
+                    <label for="">Choose a currency</label>
+
+                    <select id="from-select">
+                        <option type="currency" name="from" value="USD">USD</option>
+                        <option type="currency" name="from" value="GBP">GBP</option>
+                        <option type="currency" name="from" value="VND">VND</option>
+                        <option type="currency" name="from" value="EUR">EUR</option>
+                        <option type="currency" name="from" value="KRW">KRW</option>
+                        <option type="currency" name="from" value="AUD">AUD</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col col2">
+                <div class="container">
+                    <h1>Step 2</h1>
+                    <h3>How much of that currency would you like to convert?</h3>
+                    <label for="">Input a quantity </label>
+                    <input type="number" id="amount" />
+                </div>
+            </div>
+            <div class="col col3">
+                <div class="container">
+                    <h1>Step 3</h1>
+                    <h3>What currency do you want to convert into</h3>
+                    <label for="">Choose a currency</label>
+                    <select id="to-select">
+                        <option type="currency" name="from" value="GBP">GBP</option>
+                        <option type="currency" name="from" value="VND">VND</option>
+                        <option type="currency" name="from" value="EUR">EUR</option>
+                        <option type="currency" name="from" value="KRW">KRW</option>
+                        <option type="currency" name="from" value="AUD">AUD</option>
+                        <option type="currency" name="from" value="USD">USD</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row3">
+                <div class="col col4">
+                    <div class="container text-center">
+                    <button id="convert-button" onclick="convertedAmount()">Convert
+                        Currency</button>
+                    </div>
+                </div>
+            </div>
+        <div class="row row4">
+            <div class="col col4">
+                <div class="container text-center">
+                    <span class="final-amount" id="result"> </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+    </div>
+</body>
+
+</html>

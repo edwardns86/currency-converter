@@ -1,0 +1,60 @@
+ body {
+        background: url("../img/money-stack.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-blend-mode: screen;
+        background-color: purple;
+         background-size: cover;
+      }
+
+.col > h1 {
+    color: white;
+    background:purple ;   
+    
+}
+
+.row2 >.col {
+    background: orange;
+    margin:20px;
+    padding:20px;
+}
+
+.row3 >.col {
+    background: orange;
+    margin:20px;
+    padding:20px;
+}
+
+.row4 >.col {
+    background: purple;
+    margin:20px;
+    padding:20px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 3rem;
+    border-radius: 15px;
+    cursor: pointer; 
+    outline: none; 
+    
+}
+
+
+span {
+    color: white;
+    padding: 5px;
+    font-size: 10rem;
+}
+
+.logo-img {
+    
+    max-height:20rem;
+    
+}
+
+
+
